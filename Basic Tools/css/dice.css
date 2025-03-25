@@ -1,0 +1,26 @@
+#main {
+    text-align: center;
+    padding: 10%;
+    margin: 20px;
+    vertical-align: middle;
+}
+
+#main #button {
+    background-color: rgb(50, 105, 205);
+    border: 0;
+    padding: 10px;
+    width: 120px;
+}
+
+#main #button:hover {
+    background-color: rgb(30, 75, 175);
+}
+
+#main .container {
+    margin: 20px;
+}
+
+#main #reporterContainer #reporter {
+    background-color: rgb(35, 35, 35);
+    padding: 10px 70px;
+}

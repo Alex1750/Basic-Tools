@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Dice | Basic Tools</title>
+        <link rel="stylesheet" href="universal.css">
+        <link rel="stylesheet" href="css/dice.css">
+        <script src= "js/dice.js"></script>
+        <body>
+            <div id="navbar" class="navbar">
+                <span id="title" class="title">BasicTools.com</span>
+                <a id="home" href="home.html">Home</a>
+                <a id="calc" href="calc.html">Calculator</a>
+                <a id="timer" href="timer.html">Timer</a>
+                <a id="stopwatch" href="stopwatch.html">Stopwatch</a>
+                <a id="dice" href="dice.html" class="active">Dice Roller</a>
+                <a id="about" href="about.html">About</a>
+            </div>
+
+            <div id="main" class="main">
+                <div id="reporterContainer" class="container"> <span id="reporter">1</span> </div>
+                <div id="diceContainer" class="container">
+                    <img id="diceImg" class="dice" src="resources/dice face 1.jpg" width="150px" height="150px">
+                </div>
+                <button id="button" class="button" onclick="main()">Roll Dice</button>
+            </div>
+        </body>
+    </head>
+</html>

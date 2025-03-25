@@ -1,0 +1,10 @@
+#main {
+    margin: 100px
+}
+
+#main #time {
+    padding: 10px;
+    margin: 0, 30%;
+    text-align: center;
+    background-color: black;
+}

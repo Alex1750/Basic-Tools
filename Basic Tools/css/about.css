@@ -1,0 +1,27 @@
+#versions * {
+    font-family: 'Courier';
+    font-size: 17px;
+}
+
+#versions .link {
+    color: rgb(155, 155, 200);
+    text-decoration: none;
+}
+
+#versions .link:hover {
+    color: rgb(155, 155, 200);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pending {
+    color: rgb(185, 85, 255);
+}
+
+.done {
+    color: rgb(18, 185, 255)
+}
+
+.fail {
+    color: rgb(185, 18, 25)
+}
